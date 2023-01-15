@@ -1,0 +1,9 @@
+.screen {
+  position: absolute;
+  bottom: 75%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  align-items: flex-start;
+  background-color: rgba(214, 212, 212, 0.797);
+}

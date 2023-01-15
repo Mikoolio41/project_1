@@ -1,12 +1,8 @@
 import React from "react";
+import styles from "../styles/Screen.module.css";
 
 function Screen() {
-  return (
-    <div>
-      <h1>Screen</h1>
-      <p></p>
-    </div>
-  );
+  return <div className={styles.screen}></div>;
 }
 
 export default Screen;
