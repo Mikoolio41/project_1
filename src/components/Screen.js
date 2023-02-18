@@ -1,8 +1,12 @@
-import React from "react";
+import { Textfit } from "react-textfit";
 import styles from "../styles/Screen.module.css";
 
-function Screen() {
-  return <div className={styles.screen}></div>;
+function Screen({ value }) {
+  return (
+    <Textfit className={styles.screen} mode="single" max={70}>
+      {value}
+    </Textfit>
+  );
 }
 
 export default Screen;

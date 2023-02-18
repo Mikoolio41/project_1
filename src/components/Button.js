@@ -1,8 +1,10 @@
-import React from "react";
-import styles from "../styles/Button.module.css";
+import "../styles/Button.css";
 
-function Button() {
-  return <div className={styles.button}>1</div>;
-}
-
+const Button = ({ className, value, onClick }) => {
+  return (
+    <button className={className} onClick={onClick}>
+      {value}
+    </button>
+  );
+};
 export default Button;
